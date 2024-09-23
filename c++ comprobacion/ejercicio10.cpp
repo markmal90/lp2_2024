@@ -11,9 +11,9 @@ int calcularMCD(int a, int b) {
 
 int main() {
     int num1, num2;
-    std::cout << "Introduce el primer número: ";
+    std::cout << "Introduce el primer numero: ";
     std::cin >> num1;
-    std::cout << "Introduce el segundo número: ";
+    std::cout << "Introduce el segundo numero: ";
     std::cin >> num2;
 
     int mcd = calcularMCD(num1, num2);
