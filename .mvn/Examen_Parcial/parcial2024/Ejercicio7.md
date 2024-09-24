@@ -66,3 +66,35 @@ If you want to learn more about building native executables, please consult <htt
 Easily start your REST Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+[Ejercicio7]()
+package org.ejemplo;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.Produces;
+
+@Path("/numero-perfecto")
+public class Ejercicio7Resource {
+
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String esNumeroPerfecto(@QueryParam("numero") int numero) {
+        if (esPerfecto(numero)) {
+            return numero + " es un número perfecto.";
+        } else {
+            return numero + " no es un número perfecto.";
+        }
+    }
+
+    private boolean esPerfecto(int numero) {
+        int suma = 0;
+        for (int i = 1; i <= numero / 2; ++i) {
+            if (numero % i == 0) {
+                suma += i;
+            }
+        }
+        return suma == numero;
+    }
+}
