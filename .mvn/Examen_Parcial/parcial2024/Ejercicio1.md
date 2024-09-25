@@ -67,7 +67,7 @@ Inicie fácilmente sus Servicios Web REST
 
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
 
-### 1. Generar Números Primos
+[Ejercicio1.]( Generar Números Primos)
 
 [Descripción: Crea un endpoint que reciba un número n y devuelva los primeros n números primos...]
 
@@ -84,7 +84,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Path("/primos")
-public class PrimosResource {
+public class Ejercicio1Resource {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
@@ -112,3 +112,4 @@ public class PrimosResource {
         return primos;
     }
 }
+```
