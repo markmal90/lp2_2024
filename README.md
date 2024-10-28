@@ -1,3 +1,7 @@
+# Primer Parcial
+
+[Examen Parcial](\.mvn\Examen_Parcial\parcial2024\Ejercicio1.md)
+
 # Tareas entregadas
 
 [Tarea 2](tarea.md)
