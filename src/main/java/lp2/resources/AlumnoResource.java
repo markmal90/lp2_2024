@@ -1,4 +1,4 @@
-package  py.edu.unasur.resources;
+package  lp2.resources;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-import py.edu.unasur.models.Alumno;
-import py.edu.unasur.services.AlumnoService;
-import py.edu.unasur.services.GastosArchivoService;
+import lp2.models.Alumno;
+import lp2.services.AlumnoService;
+import lp2.services.GastosArchivoService;
 
 @Path("alumno")
 public  class AlumnoResource {

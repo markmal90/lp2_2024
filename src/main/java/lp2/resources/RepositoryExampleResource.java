@@ -1,4 +1,4 @@
-package  py.edu.unasur.resources;
+package  lp2.resources;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-import py.edu.unasur.models.GastosArchivo;
-import py.edu.unasur.services.GastosArchivoService;
+import lp2.models.GastosArchivo;
+import lp2.services.GastosArchivoService;
 
 @Path("repository-example")
 public  class RepositoryExampleResource {

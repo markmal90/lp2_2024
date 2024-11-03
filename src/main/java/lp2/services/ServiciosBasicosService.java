@@ -1,10 +1,10 @@
-package py.edu.unasur.services;
+package lp2.services;
 
 import java.util.Arrays;
 import java.util.List;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import py.edu.unasur.models.resutls.ResultadoEncontrarValores;
+import lp2.models.resutls.ResultadoEncontrarValores;
 
 @ApplicationScoped
 public class ServiciosBasicosService{

@@ -1,10 +1,10 @@
-package  py.edu.unasur.services;
+package  lp2.services;
 
 import java.util.List;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import py.edu.unasur.models.GastosArchivo;
-import py.edu.unasur.repositories.GastosArchivoRepository;
+import lp2.models.GastosArchivo;
+import lp2.repositories.GastosArchivoRepository;
 
 @ApplicationScoped
 public class GastosArchivoService{

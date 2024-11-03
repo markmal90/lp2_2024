@@ -1,4 +1,4 @@
-package  py.edu.unasur.repositories;
+package  lp2.repositories;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import py.edu.unasur.models.GastosArchivo;
+import lp2.models.GastosArchivo;
 
 @ApplicationScoped
 public class GastosArchivoRepository {

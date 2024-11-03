@@ -1,12 +1,12 @@
-package py.edu.unasur.resources;
+package lp2.resources;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
-import py.edu.unasur.models.resutls.MantenimientoResult;
-import py.edu.unasur.services.ClaseTallerService;
+import lp2.models.resutls.MantenimientoResult;
+import lp2.services.ClaseTallerService;
 
 @Path("tarea-example")
 public class TareaExampleResource{

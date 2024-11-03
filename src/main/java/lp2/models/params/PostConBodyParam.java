@@ -1,4 +1,4 @@
-package py.edu.unasur.models.params;
+package lp2.models.params;
 
 import java.util.Date;
 

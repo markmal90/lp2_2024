@@ -1,12 +1,12 @@
-package py.edu.unasur.resources;
+package lp2.resources;
 
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
-import py.edu.unasur.models.resutls.ResultadoEncontrarValores;
-import py.edu.unasur.services.ServiciosBasicosService;
+import lp2.models.resutls.ResultadoEncontrarValores;
+import lp2.services.ServiciosBasicosService;
 
 @Path("servicios")
 public class ServiciosResource{

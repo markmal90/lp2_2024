@@ -1,4 +1,4 @@
-package py.edu.unasur.resources;
+package lp2.resources;
 
 import java.util.Arrays;
 import java.util.List;
@@ -8,7 +8,7 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
-import py.edu.unasur.models.resutls.ResultadoEncontrarValores;
+import lp2.models.resutls.ResultadoEncontrarValores;
 
 /*
  *  Temario de paracial de prueba

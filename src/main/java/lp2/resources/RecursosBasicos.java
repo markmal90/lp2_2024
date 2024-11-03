@@ -1,4 +1,4 @@
-package py.edu.unasur.resources;
+package lp2.resources;
 
 import java.util.HashMap;
 
@@ -10,10 +10,10 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
-import py.edu.unasur.models.params.PostConBodyParam;
-import py.edu.unasur.models.params.TestParam;
-import py.edu.unasur.models.resutls.Respuesta;
-import py.edu.unasur.models.resutls.TestResult;
+import lp2.models.params.PostConBodyParam;
+import lp2.models.params.TestParam;
+import lp2.models.resutls.Respuesta;
+import lp2.models.resutls.TestResult;
 
 @Path("/api/recursos-basicos")
 public class RecursosBasicos {

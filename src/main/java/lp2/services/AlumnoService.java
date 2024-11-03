@@ -1,10 +1,10 @@
-package  py.edu.unasur.services;
+package  lp2.services;
 
 import java.util.List;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import py.edu.unasur.models.Alumno;
-import py.edu.unasur.repositories.AlumnoRepository;
+import lp2.models.Alumno;
+import lp2.repositories.AlumnoRepository;
 
 @ApplicationScoped
 public class AlumnoService{

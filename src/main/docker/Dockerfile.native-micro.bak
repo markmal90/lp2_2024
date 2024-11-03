@@ -8,7 +8,7 @@
 #
 # ./mvnw package -Dnative
 #
-# A continuación, construir la imagen con:
+# Then, build the image with:
 #
 # docker build -f src/main/docker/Dockerfile.native-micro -t quarkus/code-with-quarkus .
 #

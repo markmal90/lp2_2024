@@ -1,4 +1,4 @@
-package py.edu.unasur.models;
+package lp2.models;
 
 public class Alumno {
     Integer id;

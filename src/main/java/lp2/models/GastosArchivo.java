@@ -1,4 +1,4 @@
-package  py.edu.unasur.models;
+package  lp2.models;
 
 import java.util.Date;
 

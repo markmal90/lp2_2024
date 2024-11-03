@@ -1,4 +1,4 @@
-package py.edu.unasur.models.params;
+package lp2.models.params;
 
 public class TestParam {
     String codigo;

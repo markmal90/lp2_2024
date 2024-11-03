@@ -1,4 +1,4 @@
-package py.edu.unasur.models.resutls;
+package lp2.models.resutls;
 
 public class Respuesta<T> {
     Integer codigo;

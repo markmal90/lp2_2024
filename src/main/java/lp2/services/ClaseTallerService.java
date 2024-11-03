@@ -1,12 +1,12 @@
 
-package  py.edu.unasur.services;
+package  lp2.services;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import py.edu.unasur.models.CostosMantenimiento;
-import py.edu.unasur.models.resutls.MantenimientoResult;
+import lp2.models.CostosMantenimiento;
+import lp2.models.resutls.MantenimientoResult;
 
 @ApplicationScoped
 public class ClaseTallerService {
